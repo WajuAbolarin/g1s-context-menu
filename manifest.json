@@ -1,0 +1,12 @@
+{
+  "name": "G1s Context menu",
+  "description": "Open your Github repo in G1s from context menu",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": { "16": "Icon16.png", "48": "Icon48.png", "128": "Icon128.png" },
+  "background": {
+    "service_worker": "main.js"
+  },
+  "permissions": ["contextMenus", "tabs"],
+  "host_permissions": ["https://github.com/"]
+}
